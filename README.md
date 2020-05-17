@@ -1,8 +1,8 @@
-React app (with mysql) template that can run via docker-compose.
+Homepage for Piggy Games `https://piggygames.net`
 
-This is what I did:`npx create-react-app pig-mahjong`
+This is what I did:`npx create-react-app piggy-games`
 
-`docker-compose up -d`
+`yarn install` then `yarn run`
 
 then 
 `localhost:3000`
