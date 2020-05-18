@@ -1,24 +1,20 @@
 import React from "react";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import "./App.css";
-import logo from "./logo.svg";
+import Home from "./Home.js";
+import About from "./About.js";
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <div className="App-header">
       <h2> Piggy Games</h2>
-      <img src={logo} alt="piggy-logo" width="30%" />
-      <p style={{ marginBottom: "10px" }}> Pick a game: </p>
-      <ul style={{ marginTop: 0 }}>
-        <li>
-          <a href="https://mahjong.piggygames.net" className="App-link">
-            Piggy Maghjong
-          </a>
-        </li>
-        <li>more coming soon</li>
-        </ul>
+      <Switch>
+        <Route path="/about"><About /></Route>
+        <Route path="/"><Home /></Route>
+      </Switch>
       </div>
-    </div>
+    </Router>
   );
 };
 
