@@ -13,6 +13,8 @@ const Home = () => {
           <a href="https://mahjong.piggygames.net" className="App-link">
             Piggy Mahjong
           </a>
+        </li>
+        <li>
           <a href="https://circle.piggygames.net" className="App-link">
             Plop Circles
           </a>
