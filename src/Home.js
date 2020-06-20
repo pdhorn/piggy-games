@@ -15,7 +15,7 @@ const Home = () => {
           </a>
         </li>
         <li>
-          <a href="https://circle.piggygames.net" className="App-link">
+          <a href="https://circles.piggygames.net" className="App-link">
             Plop Circles
           </a>
         </li>
