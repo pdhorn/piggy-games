@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./App.css";
 import logo from "./logo.svg";
 
@@ -13,10 +13,15 @@ const Home = () => {
           <a href="https://mahjong.piggygames.net" className="App-link">
             Piggy Mahjong
           </a>
+          <a href="https://circle.piggygames.net" className="App-link">
+            Plop Circles
+          </a>
         </li>
         <li>more coming soon</li>
       </ul>
-      <Link className="App-link" to="/about">About me</Link>
+      <Link className="App-link" to="/about">
+        About me
+      </Link>
     </div>
   );
 };
