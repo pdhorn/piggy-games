@@ -19,6 +19,11 @@ const Home = () => {
             Plop Circles
           </a>
         </li>
+        <li>
+          <a href="https://apollo.piggygames.net" className="App-link">
+            Apollo's Gasket
+          </a>
+        </li>
         <li>more coming soon</li>
       </ul>
       <Link className="App-link" to="/about">
